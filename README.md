@@ -1,2 +1,2 @@
 # SCTraductor
-Pequeña utilidad para instalar el mod de traducción a castellano de Star Citizen
+Pequeña utilidad para instalar el mod de traducción a español de Star Citizen
