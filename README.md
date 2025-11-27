@@ -1,6 +1,7 @@
 # SCTraductor
 Pequeña utilidad para instalar el mod de traducción a español de Star Citizen.
 
+<img width="840" height="485" alt="imagen" src="https://github.com/user-attachments/assets/88347d4a-d75b-4cff-8697-5c9c3d02cde9" />
 
 
 ## Créditos y notas:
