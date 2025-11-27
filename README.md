@@ -3,15 +3,7 @@ Pequeña utilidad para instalar el mod de traducción a español de Star Citizen
 
 <img width="840" height="485" alt="imagen" src="https://github.com/user-attachments/assets/88347d4a-d75b-4cff-8697-5c9c3d02cde9" />
 
-
-## Créditos y notas:
-
-* Este script de instalación NO CONTIENE archivos de la traducción, sino que la descarga directamente de las releases de https://github.com/Thord82/Star_citizen_ES, para cualquier sugerencia respecto a la traducción entrad a su [Github y/o Discord](https://github.com/Thord82/Star_citizen_ES).
-* El icono de la release compilada para exe está extraido de [StarCitizenEspaña.com](https://starcitizenespaña.com/)
-* Para algunas funciones del script se ha usado [ChatGPT](https://chatgpt.com/)
-
 ## Instrucciones de uso:
-
 * Descarga la última versión del script compilado en [releases](https://github.com/xatornet/SCTraductor/releases).
 * Guardalo en una carpeta y ejecutalo.
 * El script creará automáticamente un archivo de configuración donde guardará las rutas y versiones necesarias. No lo borres.
@@ -21,3 +13,7 @@ Pequeña utilidad para instalar el mod de traducción a español de Star Citizen
 * Para las siguientes versiones del juego, podrás entrar a la aplicacion y ver si se ha actualizado el mod a la nueva version, y pulsar a actualizar para que directamente te lo actualice.
 <img width="883" height="490" alt="imagen" src="https://github.com/user-attachments/assets/bcf6f572-37a5-4f40-a22e-a64938403bcd" />
 
+### Créditos y notas:
+* Este script de instalación NO CONTIENE archivos de la traducción, sino que la descarga directamente del github de Thord82/Star_citizen_ES, para cualquier sugerencia respecto a la traducción entrad a su [Github y/o Discord](https://github.com/Thord82/Star_citizen_ES).
+* El icono de la release compilada para exe está extraido de [StarCitizenEspaña.com](https://starcitizenespaña.com/)
+* Para algunas funciones del script se ha usado [ChatGPT](https://chatgpt.com/)
