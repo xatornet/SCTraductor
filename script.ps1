@@ -106,7 +106,8 @@ function Show-Menu {
     Write-Host "| 1 - Cambiar carpeta de instalacion".PadRight($width) + "|" -ForegroundColor $optionColor
     Write-Host "| 2 - Comprobar ultima version del mod".PadRight($width) + "|" -ForegroundColor $optionColor
     Write-Host "| 3 - Actualizar traduccion".PadRight($width) + "|" -ForegroundColor $optionColor
-    Write-Host "| 4 - Salir".PadRight($width) + "|" -ForegroundColor $optionColor
+    Write-Host "| 4 - Usa mi codigo referral para tu cuenta :-P".PadRight($width) + "|" -ForegroundColor $optionColor
+    Write-Host "| 5 - Salir".PadRight($width) + "|" -ForegroundColor $optionColor
     Write-Host "+" + ("-" * ($width)) + "+" -ForegroundColor $shadowColor
 }
 
@@ -135,6 +136,13 @@ function Check-LatestModVersion {
 	Clear-Host
     Write-Host "Ultima version encontrada: $latest" -ForegroundColor Cyan
 	Start-Sleep -Seconds 2
+}
+
+function Referral {
+	Clear-Host
+    Write-Host "Abriendo Navegador" -ForegroundColor Cyan
+	Start-Sleep -Seconds 2
+	Start-Process "https://www.robertsspaceindustries.com/enlist?referral=STAR-M95W-FZB2"
 }
 
 function Update-Mod {
@@ -191,7 +199,9 @@ while ($true) {
         "1" { Change-SCPATH }
         "2" { Check-LatestModVersion }
         "3" { Update-Mod }
-        "4" { exit }
+		"4" { Referral }
+        "5" { exit }
         default { Write-Host "Opcion invalida." -ForegroundColor Red; Start-Sleep 2 }
     }
 }
+
